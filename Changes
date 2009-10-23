@@ -1,6 +1,8 @@
 Revision history for Test-FormValidator
 
 0.07    
+        - Changes of interest to module maintainers only:
+          - fixed the makedocs script to work with more recent pod2html
 
 0.06    November 16, 2005
         - $tfv->check_ok now returns a $results object on failure as
