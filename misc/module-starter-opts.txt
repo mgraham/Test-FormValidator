@@ -1,2 +1,2 @@
 
-  $ module-starter --mb --module=Test::FormValidator --author="Michael Graham" --email=mag-perl@occamstoothbrush.com
+  $ module-starter --mb --module=Test::FormValidator --author="Michael Graham" --email=mgraham@cpan.org

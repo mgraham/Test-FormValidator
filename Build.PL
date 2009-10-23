@@ -5,7 +5,7 @@ use Module::Build;
 my $builder = Module::Build->new(
     module_name         => 'Test::FormValidator',
     license             => 'perl',
-    dist_author         => 'Michael Graham <mag-perl@occamstoothbrush.com>',
+    dist_author         => 'Michael Graham <mgraham@cpan.org>',
     dist_version_from   => 'lib/Test/FormValidator.pm',
     requires => {
         'Test::Simple'             => 0.62,
