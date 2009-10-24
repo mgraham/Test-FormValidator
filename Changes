@@ -1,6 +1,9 @@
 Revision history for Test-FormValidator
 
 0.07    
+        - Fixed failing test (RT #24127, RT #45729).  Thanks to Olaf 
+          Alders and Mike Tonks for the reports.
+
         - Changes of interest to module maintainers only:
           - fixed the makedocs script to work with more recent pod2html
 

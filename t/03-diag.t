@@ -4,6 +4,7 @@ use strict;
 use Test::More 'no_plan';
 use Data::Dumper;
 
+use Data::FormValidator::Constraints qw(:closures);
 use Test::FormValidator;
 
 my $tfv = Test::FormValidator->new({}, {
@@ -19,7 +20,7 @@ $tfv->profile({
     required => ['foo', 'bar', 'baz'],
     optional => ['biz', 'bam', 'boom'],
     constraint_methods => {
-        foo => 'email',
+        foo => email(),
         biz => [
             sub {
                 my $dfv = shift;
