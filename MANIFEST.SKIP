@@ -30,3 +30,4 @@ Test-FormValidator.html$
 \.tar$
 \.tar.gz$
 \.tgz$
+\.sw.$
