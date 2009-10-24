@@ -8,6 +8,8 @@ Revision history for Test-FormValidator
 
         - Changes of interest to module maintainers only:
           - fixed the makedocs script to work with more recent pod2html
+          - source repo now on github: http://github.com/mgraham/Test-FormValidator
+
 
 0.06    November 16, 2005
         - $tfv->check_ok now returns a $results object on failure as
