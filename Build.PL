@@ -17,6 +17,14 @@ my $builder = Module::Build->new(
         'Data::Dumper'             => 2.03, # this version introduced Terse()
         'HTML::TokeParser::Simple' => 1.1,  # this version introduced is_start_tag($type)
     },
+    meta_add            => {
+         no_index       => {
+             directory => [ qw/
+                 misc
+                 t
+             /]
+         }
+    },
     add_to_cleanup      => [ 'Test-FormValidator-*' ],
     create_makefile_pl  => 'traditional',
 );
